@@ -106,7 +106,8 @@
         <h2 class="reservation__title">Reservar una mesa</h2>
           <form class="reservation__form" action="/procesar-formulario" method="POST">
         
-      <fieldset class="form__fieldset">
+      <fieldset class="**form__fieldset**">
+        <div class="**form__field**">
         <label class="form__label" for="name">Nombre *</label>
         <input
           type="text"
@@ -117,7 +118,8 @@
           placeholder="Introduce tu nombre"
           id="name"
         />
-
+        </div>
+         <div class="**form__field**">
         <label class="form__label"
          for="comensales">Número de comensales *</label>
         <input
@@ -128,10 +130,14 @@
           required
           placeholder="1-8"
           id="comensales"
-        />      
+        />
+        </div>
+         <div class="**form__field**">
           <label class="form__label" for="fecha"
           >Fecha y hora *</label
         >
+        </div>
+        <div class="**form__field**">
         <input
           type="datetime-local"
           class="form__input"
@@ -139,10 +145,14 @@
           id="fecha"
           name="fecha"
         />
-
+        </div>
+        <div class="**form__field**">
         <label class="form__label" for="correoElectrónico"
           >Tu correo electrónico *</label
         >
+        </div>
+
+        <div class="**form__field**">
         <input
           type="email"
           class="form__input"
@@ -150,12 +160,15 @@
           placeholder="email@email.com"
           id="correoElectrónico"
         />
+        </div>
+        <div class="**form__field**">
          <button class="form__button--submit"
             type="submit"
             class="form__button form__button--submit"
             >
             Reservar una mesa
       </button>
+      </div>
 
         <div class="form__checkbox">
           <input type="checkbox" id="términos" class="form__checkbox-input" required/>
@@ -165,7 +178,6 @@
   </div>
        </section>
       </main>
-      <div>
       <footer class="footer"></footer>
     </div>
   </body> 
