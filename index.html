@@ -103,8 +103,8 @@
 
     <section class="reservation" id="reservation">
       <div class="form-container">
-        <h2 class="**reservation__title**">Reservar una mesa</h2>
-          <form class="**reservation__form form**" action="/procesar-formulario" method="POST">
+        <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form" action="/procesar-formulario" method="POST">
         
       <fieldset class="form__fieldset">
         <label class="form__label" for="name">Nombre *</label>
@@ -150,7 +150,7 @@
           placeholder="email@email.com"
           id="correoElectrónico"
         />
-         <button
+         <button class="form__button--submit"
             type="submit"
             class="form__button form__button--submit"
             >
