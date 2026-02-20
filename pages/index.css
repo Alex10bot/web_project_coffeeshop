@@ -197,12 +197,6 @@
   line-height: 52px;
 }
 
-h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
 .reservation__form {
   max-width: 385px;
   width: 100%;
